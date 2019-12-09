@@ -5,4 +5,8 @@ class Song
     new_artist = Artist.new
     new_artist.name = artist
   end
+
+  def artist
+
+  end
 end
