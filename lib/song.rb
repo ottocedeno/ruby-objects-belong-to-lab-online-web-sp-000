@@ -2,7 +2,7 @@ class Song
   attr_accessor :title, :artist
 
   def artist=(artist)
-    artist = Artist.new
-    @artist = artist.name
+    new_artist = Artist.new
+    new_artist.name = artist
   end
 end
