@@ -3,6 +3,6 @@ class Song
 
   def artist=
     artist = Artist.new
-    @artist = artist.nam
+    @artist = artist.name
   end
 end
