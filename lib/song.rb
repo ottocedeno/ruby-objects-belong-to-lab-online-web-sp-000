@@ -1,4 +1,4 @@
-require './artist.rb'
+require 'artist.rb'
 require 'pry'
 
 class Song
